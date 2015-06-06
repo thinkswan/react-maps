@@ -1,0 +1,14 @@
+{
+  "name": "react-maps",
+  "description": "A React app that allows users to search a map and save locations",
+  "keywords": [
+    "node",
+    "react",
+    "maps"
+  ],
+  "repository": "https://github.com/thinkswan/react-maps",
+  "success_url": "/",
+  "scripts": {},
+  "env": {},
+  "addons": []
+}
