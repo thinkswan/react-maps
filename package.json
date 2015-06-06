@@ -6,7 +6,7 @@
   "scripts": {
     "browserify": "browserify main.js | uglifyjs > public/assets/js/app.js",
     "build": "npm run browserify ",
-    "watch": "watchify -v -d main.js -o public/assets/js/app.js",
+    "watch": "watchify main.js -o public/assets/js/app.js -v",
     "postinstall": "npm run build",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
