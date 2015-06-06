@@ -4,11 +4,11 @@
   "description": "A React app that allows users to search a map and save locations",
   "author": "Graham Swan <thinkswan@gmail.com> (http://grahamswan.com/)",
   "scripts": {
-    "browserify": "browserify main.js | uglifyjs > assets/js/app.js",
+    "browserify": "browserify main.js | uglifyjs > public/assets/js/app.js",
     "build": "npm run browserify ",
-    "watch": "watchify -v -d main.js -o assets/js/app.js",
+    "watch": "watchify -v -d main.js -o public/assets/js/app.js",
     "postinstall": "npm run build",
-    "start": "open index.html",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "main.js",
@@ -21,12 +21,14 @@
   },
   "keywords": [
     "node",
+    "express",
     "react",
     "maps"
   ],
   "dependencies": {
     "moment": "^2.10.3",
     "react": "^0.13.3",
+    "express": "^4.12.4",
     "browserify": "^10.2.3",
     "reactify": "^1.1.1",
     "uglify-js": "^2.4.23"

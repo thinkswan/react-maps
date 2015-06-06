@@ -3,6 +3,7 @@
   "description": "A React app that allows users to search a map and save locations",
   "keywords": [
     "node",
+    "express",
     "react",
     "maps"
   ],
