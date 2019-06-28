@@ -2,7 +2,7 @@
   "name": "react-maps",
   "version": "0.0.0",
   "description": "A React app that allows users to search a map and save locations",
-  "author": "Graham Swan <thinkswan@gmail.com> (http://grahamswan.com/)",
+  "author": "Graham Swan <thinkswan@gmail.com>",
   "scripts": {
     "browserify": "browserify main.js | uglifyjs > public/assets/js/app.js",
     "build": "npm run browserify ",
@@ -16,9 +16,7 @@
     "type": "git",
     "url": "https://github.com/thinkswan/react-maps.git"
   },
-   "bugs": {
-    "url": "https://github.com/thinkswan/react-maps/issues"
-  },
+  "bugs": {},
   "keywords": [
     "node",
     "express",
@@ -41,12 +39,22 @@
   },
   "browserify": {
     "transform": [
-      [ "reactify", { "es6": true } ]
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
     ]
   },
   "watchify": {
     "transform": [
-      [ "reactify", { "es6": true } ]
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
     ]
   },
   "private": true,
