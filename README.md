@@ -5,10 +5,6 @@ A React app that allows users to search a map and save locations.
 Based on the tutorial found at
 http://tutorialzine.com/2015/04/first-webapp-react/.
 
-## Demo
-
-View a live demo at https://react-maps.herokuapp.com/.
-
 ## How to use
 
 ```
